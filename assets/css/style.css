@@ -38,6 +38,7 @@
 /*  01. THEME DEFAULT CSS START
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url(./custom-style.css);
 :root {
   /**
   @font family declaration
@@ -3505,7 +3506,7 @@ input[type=color] {
 /*  05. about CSS START
 /*----------------------------------------*/
 .tp-ab-section-title-box {
-  padding-left: 60px;
+  padding-left: 26px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-ab-section-title-box {
