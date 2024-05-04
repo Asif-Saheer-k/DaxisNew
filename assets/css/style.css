@@ -2087,7 +2087,7 @@ input[type=color] {
 
 .tp-logo-border {
   padding: 43px 0;
-  padding-right: 80px;
+  padding-right: 30px;
   margin-right: 60px;
   border-right: 1px solid var(--tp-border-3);
 }
@@ -2142,7 +2142,7 @@ input[type=color] {
 }
 .tp-main-menu ul li {
   display: inline-block;
-  margin: 0px 50px;
+  margin: 0px 30px;
   position: relative;
 }
 .tp-main-menu ul li:last-child {
@@ -3003,7 +3003,7 @@ input[type=color] {
   color: var(--tp-common-black);
 }
 .tp-hero__thumb {
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 .tp-hero__thumb img {
   color: var(--tp-common-black);
