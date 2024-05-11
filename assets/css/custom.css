@@ -3,7 +3,7 @@
       transform: translateX(0);
     }
     to {
-      transform: translateX(-100%);
+      transform: translateX(-80%);
     }
   }
   
@@ -35,7 +35,7 @@
   
   .logo_items {
     display: inline-block;
-    animation: 35s slides infinite linear;
+    animation: 30s slides infinite linear;
   }
   
   .logos:hover .logo_items {

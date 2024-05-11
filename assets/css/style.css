@@ -2134,7 +2134,7 @@ input[type=color] {
 }
 
 .tp-logo img {
-  width: 120px;
+  width: 133px;
 }
 
 .tp-main-menu ul {
@@ -3662,7 +3662,7 @@ input[type=color] {
   font-weight: 600;
   font-size: 65px;
   color: transparent;
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000000;
   display: inline-block;
   position: relative;
 }
@@ -3671,7 +3671,7 @@ input[type=color] {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #A59FFB;
+  background-color: #ffffff;
   z-index: -1;
   position: absolute;
   top: 10px;
@@ -6446,6 +6446,17 @@ blockquote cite::before {
   -webkit-text-stroke: 1px #000;
   color: transparent;
   transition: 0.4s;
+
+}
+.cta-small-text {
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+  transition: 0.4s;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .cta-big-text {
@@ -6468,7 +6479,27 @@ blockquote cite::before {
     font-size: 55px;
   }
 }
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cta-small-text {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cta-small-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .cta-small-text {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .cta-small-text {
+    font-size: 30px;
+  }
+}
 .cta-effect-img {
   position: absolute;
   bottom: 80px;
@@ -6495,6 +6526,10 @@ blockquote cite::before {
 }
 
 .cta-item:hover .cta-big-text {
+  -webkit-text-stroke: 1px transparent;
+  color: var(--tp-common-black);
+}
+.cta-item:hover .cta-small-text {
   -webkit-text-stroke: 1px transparent;
   color: var(--tp-common-black);
 }
