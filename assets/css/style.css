@@ -3661,7 +3661,7 @@ input[type=color] {
 .counter-item h4 {
   font-weight: 600;
   font-size: 65px;
-  color: transparent;
+  color: #000000;
   -webkit-text-stroke: 1px #000000;
   display: inline-block;
   position: relative;
